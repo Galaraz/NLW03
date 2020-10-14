@@ -19,7 +19,7 @@ const Landing = () => {
 
                 <div className="location">
                     <strong>Campo Grande</strong>
-                    <span>Mato Grosso do sul</span>
+                    <span>Mato Grosso do Sul</span>
                 </div>
 
                 <Link to="/app" className="enter-app">

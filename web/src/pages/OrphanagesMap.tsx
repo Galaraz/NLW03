@@ -24,13 +24,13 @@ const OrphanagesMap = () => {
 
                 <footer>
                     <strong>Campo Grande</strong>
-                    <span>Mato Grosso do sul</span>
+                    <span>Mato Grosso do Sul</span>
                 </footer>
             </ContentWrapper>
 
             <Map 
-                center={[-19.9491584, -43.9549952]}
-                zoom={14}
+                center={[-20.4517056,-54.5954657]}
+                zoom={15}
                 style={{ width: '100%', height: '100%' }}
             >
                 <TileLayer 
