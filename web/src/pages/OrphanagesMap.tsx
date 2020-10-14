@@ -9,7 +9,7 @@ import mapMarkerImg from '../images/map-marker.svg';
 
 import { Container, ContentWrapper } from '../styles/pages/orphanages-map';
 
-const mapBoxURL = `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`
+const mapBoxURL = `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`;
 
 const OrphanagesMap = () => {
     return (
@@ -19,12 +19,12 @@ const OrphanagesMap = () => {
                     <img src={mapMarkerImg} alt="Happy" />
 
                     <h2>Escola um orfanato no mapa</h2>
-                    <p>Muitas crianças estão esperando a sua visita :)</p>
+                    <p>Muitas crianças estão esperando a sua visita :</p>
                 </header>
 
                 <footer>
-                    <strong>Belo Horizonte</strong>
-                    <span>Minas Gerais</span>
+                    <strong>Campo Grande</strong>
+                    <span>Mato Grosso do sul</span>
                 </footer>
             </ContentWrapper>
 
@@ -45,4 +45,4 @@ const OrphanagesMap = () => {
     );
 }
 
-export default OrphanagesMap;
+export default OrphanagesMap; 
